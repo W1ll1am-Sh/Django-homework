@@ -1,7 +1,9 @@
-from django import forms
-from django.contrib.auth.forms import AuthenticationForm, UserCreationForm
+import random, hashlib
+
 from .models import ShopUser
 
+from django import forms
+from django.contrib.auth.forms import AuthenticationForm, UserCreationForm
 from django.contrib.auth.forms import UserChangeForm
 
 
@@ -9,12 +11,22 @@ class ShopUserLoginForm(AuthenticationForm):
     class Meta:
         model = ShopUser
         fields = ('username', 'password')
-    
+
+
     def __init__(self, *args, **kwargs):
         super(ShopUserLoginForm, self).__init__(*args, **kwargs)
         for field_name, field in self.fields.items():
             field.widget.attrs['class'] = 'form-control'
-            
+
+    def save(self):
+        user = super(ShopUserRegisterForm, self).save()
+
+        user.is_active = False
+        salt = hashlib.sha1(str(random.random()).encode('utf8')).hexdigest()[:6]
+        user.activation_key = hashlib.sha1((user.email + salt).encode('utf8')).hexdigest()
+        user.save()
+
+        return user
             
 class ShopUserRegisterForm(UserCreationForm):
     class Meta:
