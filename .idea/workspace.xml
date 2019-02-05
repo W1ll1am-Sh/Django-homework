@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be68c78-f13d-43bd-b0ec-42d29fe26634" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/geekshop/authapp/templates/authapp/verification.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekshop/mainapp/context_processors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/authapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/authapp/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/authapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/authapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/authapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/authapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/geekshop/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/geekshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/geekshop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/mainapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/mainapp/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,30 +29,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/geekshop/geekshop/settings.py">
+        <entry file="file://$PROJECT_DIR$/geekshop/mainapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-668">
-              <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/geekshop/mainapp/context_processors.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <state>
+              <caret column="28" selection-start-column="28" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/geekshop/mainapp/views.py">
+        <entry file="file://$PROJECT_DIR$/geekshop/geekshop/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-338">
-              <caret line="59" column="29" lean-forward="true" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+            <state relative-caret-position="210">
+              <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,13 +86,11 @@
         <option value="$PROJECT_DIR$/geekshop/basketapp/views.py" />
         <option value="$PROJECT_DIR$/geekshop/basketapp/templates/basketapp/includes/inc_basket_list.html" />
         <option value="$PROJECT_DIR$/geekshop/basketapp/templates/basketapp/basket.html" />
-        <option value="$PROJECT_DIR$/geekshop/geekshop/urls.py" />
         <option value="$PROJECT_DIR$/geekshop/adminapp/templates/adminapp/base.html" />
         <option value="$PROJECT_DIR$/geekshop/adminapp/templates/adminapp/products.html" />
         <option value="$PROJECT_DIR$/geekshop/adminapp/templates/adminapp/includes/inc_menu.html" />
         <option value="$PROJECT_DIR$/geekshop/adminapp/templates/adminapp/user_update.html" />
         <option value="$PROJECT_DIR$/geekshop/adminapp/templates/adminapp/user_delete.html" />
-        <option value="$PROJECT_DIR$/geekshop/mainapp/models.py" />
         <option value="$PROJECT_DIR$/geekshop/adminapp/templates/adminapp/categories.html" />
         <option value="$PROJECT_DIR$/geekshop/adminapp/forms.py" />
         <option value="$PROJECT_DIR$/geekshop/adminapp/templates/adminapp/product_read.html" />
@@ -120,6 +107,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/geekshop/mainapp/context_processors.py" />
         <option value="$PROJECT_DIR$/geekshop/mainapp/views.py" />
+        <option value="$PROJECT_DIR$/geekshop/mainapp/models.py" />
+        <option value="$PROJECT_DIR$/geekshop/geekshop/urls.py" />
       </list>
     </option>
   </component>
@@ -151,7 +140,7 @@
               <item name="hw-ave-Hamlet" type="b2602c69:ProjectViewProjectNode" />
               <item name="hw-ave-Hamlet" type="462c0819:PsiDirectoryNode" />
               <item name="geekshop" type="462c0819:PsiDirectoryNode" />
-              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
+              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -201,7 +190,9 @@
       <workItem from="1548843846810" duration="277000" />
       <workItem from="1548899461312" duration="1105000" />
       <workItem from="1548900850209" duration="485000" />
-      <workItem from="1548902015509" duration="6390000" />
+      <workItem from="1548902015509" duration="6477000" />
+      <workItem from="1549069278283" duration="58000" />
+      <workItem from="1549374550982" duration="197000" />
     </task>
     <task id="LOCAL-00001" summary="comment gitignore file">
       <created>1548903936714</created>
@@ -210,11 +201,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548903936715</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="mail-massage integration">
+      <created>1548916223194</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548916223194</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33150000" />
+    <option name="totallyTimeSpent" value="33492000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -227,7 +225,7 @@
   <component name="ToolWindowManager">
     <frame x="51" y="27" width="1549" height="873" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4993498" visible="true" weight="0.20093147" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993498" visible="true" weight="0.20625415" />
       <window_info id="Structure" order="1" sideWeight="0.50065017" side_tool="true" weight="0.16625" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -255,7 +253,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="comment gitignore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="comment gitignore file" />
+    <MESSAGE value="mail-massage integration" />
+    <MESSAGE value="corrected code" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected code" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/geekshop/mainapp/migrations/0001_initial.py">
@@ -368,16 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geekshop/geekshop/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/geekshop/adminapp/templates/adminapp/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -392,16 +382,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekshop/mainapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -541,7 +521,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/geekshop/geekshop/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-668">
+        <state relative-caret-position="1020">
           <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
         </state>
       </provider>
@@ -555,10 +535,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/geekshop/mainapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-338">
-          <caret line="59" column="29" lean-forward="true" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+        <state relative-caret-position="315">
+          <caret line="79" column="22" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekshop/mainapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekshop/geekshop/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
