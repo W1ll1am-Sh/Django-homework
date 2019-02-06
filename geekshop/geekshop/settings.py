@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 """
 
 import os
+import json
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -40,7 +41,8 @@ INSTALLED_APPS = [
     'mainapp',
     'authapp',
     'basketapp',
-    'adminapp'
+    'adminapp',
+    'social_django',
 ]
 
 MIDDLEWARE = [
@@ -150,3 +152,23 @@ EMAIL_USE_SSL = False
 # вариант логирования сообщений почты в виде файлов вместо отправки
 EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 EMAIL_FILE_PATH = 'tmp/email-messages/'
+
+AUTHENTICATION_BACKENDS = (
+    'django.contrib.auth.backends.ModelBackend',
+    'social_core.backends.google.GoogleOAuth2',
+)
+
+SOCIAL_AUTH_URL_NAMESPACE = 'social'
+
+# можно хранить секреты прямо в файле настроек
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '155910072871-7ug3m2rotuvlrmmebrcr0khgmep353hj'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'AFEmuTMTPUyE6yPkp4dx3lcb'
+
+"""
+# загружаем секреты из файла
+with open('geekshop/google+.json', 'r') as f:
+    GOOGLE_PLUS = json.load(f)
+
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = GOOGLE_PLUS['SOCIAL_AUTH_GOOGLE_OAUTH2_KEY']
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = GOOGLE_PLUS['SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET']
+"""
