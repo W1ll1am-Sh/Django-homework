@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2be68c78-f13d-43bd-b0ec-42d29fe26634" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/geekshop/mainapp/management/commands/update_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/authapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/authapp/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/authapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/authapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/authapp/templates/authapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/authapp/templates/authapp/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/authapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/authapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/geekshop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/geekshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/geekshop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/mainapp/management/commands/fill_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/mainapp/management/commands/fill_db.py" afterDir="false" />
-    </list>
+    <list default="true" id="2be68c78-f13d-43bd-b0ec-42d29fe26634" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,29 +23,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/geekshop/authapp/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="79" column="56" selection-start-line="79" selection-start-column="56" selection-end-line="79" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/geekshop/authapp/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -118,6 +86,7 @@
         <option value="$PROJECT_DIR$/geekshop/mainapp/management/commands/fill_db.py" />
         <option value="$PROJECT_DIR$/geekshop/authapp/forms.py" />
         <option value="$PROJECT_DIR$/geekshop/authapp/views.py" />
+        <option value="$PROJECT_DIR$/geekshop/authapp/templates/authapp/edit.html" />
       </list>
     </option>
   </component>
@@ -149,6 +118,21 @@
               <item name="hw-ave-Hamlet" type="b2602c69:ProjectViewProjectNode" />
               <item name="hw-ave-Hamlet" type="462c0819:PsiDirectoryNode" />
               <item name="geekshop" type="462c0819:PsiDirectoryNode" />
+              <item name="authapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw-ave-Hamlet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw-ave-Hamlet" type="462c0819:PsiDirectoryNode" />
+              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
+              <item name="authapp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw-ave-Hamlet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw-ave-Hamlet" type="462c0819:PsiDirectoryNode" />
+              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
+              <item name="authapp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="authapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -202,7 +186,7 @@
       <workItem from="1548900850209" duration="485000" />
       <workItem from="1548902015509" duration="6477000" />
       <workItem from="1549069278283" duration="58000" />
-      <workItem from="1549374550982" duration="4252000" />
+      <workItem from="1549374550982" duration="4440000" />
     </task>
     <task id="LOCAL-00001" summary="comment gitignore file">
       <created>1548903936714</created>
@@ -239,11 +223,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549419822040</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="corrected code">
+      <created>1549425689246</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1549425689246</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37547000" />
+    <option name="totallyTimeSpent" value="37735000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -255,9 +246,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="27" width="1549" height="873" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993498" visible="true" weight="0.20625415" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4993498" weight="0.20625415" />
       <window_info id="Structure" order="1" sideWeight="0.50065017" side_tool="true" weight="0.16625" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -272,7 +262,7 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32885906" />
-      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3852573" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3852573" />
       <window_info anchor="right" id="SciView" order="0" weight="0.3298969" />
       <window_info anchor="right" id="Database" order="1" weight="0.32924467" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
@@ -618,8 +608,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/geekshop/authapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="330">
+          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekshop/authapp/templates/authapp/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
         </state>
       </provider>
     </entry>
