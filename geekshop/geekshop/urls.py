@@ -1,10 +1,9 @@
-from django.conf.urls import url, include
-from django.contrib import admin
-import mainapp.views as mainapp
 from django.urls import include, path
-
 from django.conf import settings
 from django.conf.urls.static import static
+
+import mainapp.views as mainapp
+
 
 urlpatterns = [
     path('', mainapp.main, name='main'),
