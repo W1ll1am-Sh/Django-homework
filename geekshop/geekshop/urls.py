@@ -1,4 +1,6 @@
-from django.urls import include, path
+from django.urls import include
+from django.urls import path
+from django.urls import re_path
 from django.conf import settings
 from django.conf.urls.static import static
 
@@ -12,7 +14,8 @@ urlpatterns = [
     path('auth/', include('authapp.urls', namespace='auth')),
     path('basket/', include('basketapp.urls', namespace='basket')),
     path('admin/', include('adminapp.urls', namespace='admin')),
-    path(r'^auth/verify/google/oauth2/', include("social_django.urls", namespace="social")),
+    re_path(r'^auth/verify/google/oauth2/', include("social_django.urls", namespace="social")),
+    re_path(r'^order/', include('ordersapp.urls', namespace='order')),
 ]
 
 if settings.DEBUG:
