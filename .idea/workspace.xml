@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2be68c78-f13d-43bd-b0ec-42d29fe26634" name="Default Changelist" comment="corrected code">
-      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/includes/inc_order_actions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/includes/inc_order_summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/order_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/order_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/order_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekshop/ordersapp/urls.py" afterDir="false" />
+    <list default="true" id="2be68c78-f13d-43bd-b0ec-42d29fe26634" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/geekshop/static/js/jquery.formset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekshop/static/js/orders_script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/geekshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/geekshop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/geekshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/geekshop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/mainapp/templates/mainapp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/mainapp/templates/mainapp/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekshop/mainapp/templates/mainapp/includes/inc_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/mainapp/templates/mainapp/includes/inc_menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/basketapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/basketapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/ordersapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/ordersapp/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/ordersapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/ordersapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/includes/inc_order_actions.html" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/includes/inc_order_actions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/includes/inc_order_summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/includes/inc_order_summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/order_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/order_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/order_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/order_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekshop/ordersapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekshop/ordersapp/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,42 +37,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/geekshop/ordersapp/views.py">
+        <entry file="file://$PROJECT_DIR$/geekshop/static/js/orders_script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="62" column="50" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#68#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/order_detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/includes/inc_order_actions.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/includes/inc_order_summary.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+            <state relative-caret-position="299">
+              <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -82,10 +52,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="package.json" />
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -101,10 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/geekshop/mainapp/json/contact__locations.json" />
-        <option value="$PROJECT_DIR$/geekshop/basketapp/models.py" />
-        <option value="$PROJECT_DIR$/geekshop/mainapp/templates/mainapp/products.html" />
-        <option value="$PROJECT_DIR$/geekshop/mainapp/templates/mainapp/index.html" />
         <option value="$PROJECT_DIR$/geekshop/static/js/basket_script.js" />
         <option value="$PROJECT_DIR$/geekshop/basketapp/templates/basketapp/base.html" />
         <option value="$PROJECT_DIR$/geekshop/basketapp/urls.py" />
@@ -142,16 +108,20 @@
         <option value="$PROJECT_DIR$/geekshop/mainapp/templates/mainapp/base.html" />
         <option value="$PROJECT_DIR$/geekshop/geekshop/settings.py" />
         <option value="$PROJECT_DIR$/geekshop/geekshop/urls.py" />
-        <option value="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/base.html" />
         <option value="$PROJECT_DIR$/geekshop/ordersapp/urls.py" />
         <option value="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/order_list.html" />
-        <option value="$PROJECT_DIR$/geekshop/ordersapp/forms.py" />
+        <option value="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/inc_order_actions.html" />
         <option value="$PROJECT_DIR$/geekshop/ordersapp/models.py" />
+        <option value="$PROJECT_DIR$/geekshop/basketapp/models.py" />
+        <option value="$PROJECT_DIR$/geekshop/ordersapp/forms.py" />
+        <option value="$PROJECT_DIR$/geekshop/ordersapp/views.py" />
         <option value="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/order_form.html" />
         <option value="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/order_detail.html" />
-        <option value="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/inc_order_actions.html" />
+        <option value="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/includes/inc_order_actions.html" />
         <option value="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/includes/inc_order_summary.html" />
-        <option value="$PROJECT_DIR$/geekshop/ordersapp/views.py" />
+        <option value="$PROJECT_DIR$/geekshop/static/js/jquery.formset.js" />
+        <option value="$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/base.html" />
+        <option value="$PROJECT_DIR$/geekshop/static/js/orders_script.js" />
       </list>
     </option>
   </component>
@@ -166,6 +136,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,11 +170,32 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="ordersapp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hw-ave-Hamlet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw-ave-Hamlet" type="462c0819:PsiDirectoryNode" />
+              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
+              <item name="ordersapp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="ordersapp" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw-ave-Hamlet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw-ave-Hamlet" type="462c0819:PsiDirectoryNode" />
+              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw-ave-Hamlet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw-ave-Hamlet" type="462c0819:PsiDirectoryNode" />
+              <item name="geekshop" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,7 +205,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -258,7 +250,9 @@
       <workItem from="1549069278283" duration="58000" />
       <workItem from="1549374550982" duration="4440000" />
       <workItem from="1549469592200" duration="6245000" />
-      <workItem from="1549508251639" duration="3291000" />
+      <workItem from="1549508251639" duration="3459000" />
+      <workItem from="1549572555336" duration="110000" />
+      <workItem from="1549750000076" duration="7429000" />
     </task>
     <task id="LOCAL-00001" summary="comment gitignore file">
       <created>1548903936714</created>
@@ -309,11 +303,25 @@
       <option name="project" value="LOCAL" />
       <updated>1549469704483</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="corrected code">
+      <created>1549512095339</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1549512095339</updated>
+    </task>
+    <task id="LOCAL-00009" summary="corrected code">
+      <created>1549512225663</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1549512225663</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47271000" />
+    <option name="totallyTimeSpent" value="54978000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -324,9 +332,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="27" width="1549" height="873" extended-state="6" />
+    <frame x="0" y="25" width="1600" height="875" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4993498" weight="0.2089155" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993498" visible="true" weight="0.21401028" />
       <window_info id="Structure" order="1" sideWeight="0.50065017" side_tool="true" weight="0.16625" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -341,7 +350,7 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32885906" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3852573" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.19315068" />
       <window_info anchor="right" id="SciView" order="0" weight="0.3298969" />
       <window_info anchor="right" id="Database" order="1" weight="0.32924467" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
@@ -359,26 +368,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="corrected code" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/geekshop/static/js/basket_script.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekshop/basketapp/templates/basketapp/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekshop/basketapp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="78" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/geekshop/basketapp/templates/basketapp/includes/inc_basket_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -656,30 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/order_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="64" column="14" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekshop/ordersapp/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/geekshop/ordersapp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -692,24 +657,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/geekshop/ordersapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="449">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/order_form.html">
+    <entry file="file://$PROJECT_DIR$/geekshop/basketapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+        <state relative-caret-position="434">
+          <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekshop/ordersapp/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekshop/ordersapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="100" column="40" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/order_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/order_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="435">
           <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
         </state>
       </provider>
@@ -721,22 +716,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/geekshop/static/js/jquery.formset.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="160" column="20" selection-start-line="160" selection-start-column="20" selection-end-line="160" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/includes/inc_order_summary.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        <state relative-caret-position="495">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geekshop/ordersapp/views.py">
+    <entry file="file://$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="62" column="50" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#68#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/geekshop/ordersapp/templates/ordersapp/order_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="49" column="11" lean-forward="true" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekshop/static/js/orders_script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
